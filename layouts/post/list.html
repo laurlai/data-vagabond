@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+
+{{ partial "nav.html" . }}
+
+<main>
+<section>
+    <article id="blog-list">
+        <header>
+        <h1>all posts</h1>
+        </header>
+
+        <ul>
+        {{ range where .Pages.ByPublishDate.Reverse "Section" "post" }}
+            <li>
+                <time datetime="{{.Date}}">{{ .Date.Format "January 2, 2006" }}</time><br>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>  
+            </li>
+        {{ end }}
+        </ul>
+
+    </article>
+</section>

@@ -1,0 +1,4 @@
+<ul id="article-toggle">
+        {{ with .PrevInSection }}<li><a href="{{ .Permalink }}">&laquo;  {{ .Title }}</a></li>{{ end }}
+        {{ with .NextInSection }}<li><a href="{{ .Permalink }}">{{ .Title }}  &raquo;</a></li>{{ end }}
+</ul>

@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+
+{{ partial "nav.html" . }}
+
+<main>
+<section>
+    <article class="blog-post">
+        <header>
+        <h1>{{.Title}}</h1>
+        </header>
+
+        <section class="blog-content">
+        {{.Content}}
+        </section>
+
+    </article>
+
+    {{ partial "article-toggle.html" . }}
+</section>
+
+</main>
