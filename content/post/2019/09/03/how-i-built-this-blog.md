@@ -3,16 +3,10 @@ date: "2019-09-03T09:43:13-04:00"
 title: "how i built this blog"
 type: "post"
 tags: ["code", "tutorial"]
-draft: false
+draft: true
 ---
 
-I've toyed with the idea of creating my own website for a few years now. I wanted to be able to document my travels as well as generate my portfolio for future job prospects in data science. 
-
-I wanted something I could build myself and can easily maintain as my portfolio evolves. 
-
-## my prerequisites
-
-The only exposure I've had to web development until recently was custom profile development on MySpace in the early 2000s (which involved copying `html` from other sources and modifying the code _ever so slightly_ to fit my needs). I do have general coding experience in other languages, so that's definitely helped me pick things up on a logical standpoint. 
+I've toyed with the idea of creating my own website for a few years now. The primary purpose of the site is to give a brief overview of my abilities as well as showcase my work in data science. I wanted something I could build myself, but not from complete scratch as that would be too difficult given my (lack of) experience in web development. Around 2006, I spent way too many hours on MySpace "customizing" my profile using `html` snippets from other sources, resulting in a tacky black-and-red color scheme and an absurd amount of sparkly text gifs. 
 
 ## process
 
