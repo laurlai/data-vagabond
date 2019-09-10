@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #454545;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid #454545;
+    padding-bottom: .01em;
+}
+
+a:hover {
+    border-color: rgba(0,212,255,1);
+}
+
+#banner a, nav a {
+    border-bottom: none;
+    color: rgb(0,212,255);
+    font-family: 'Space Mono', monospace;
+    font-weight: 800;
+    text-decoration: none
+}
+
+#banner a:hover, 
+nav a:hover {
+    border-bottom: 2px solid rgba(255,106,250,1);
+    box-shadow: inset 0 -5px 0 rgba(255,106,250,1);
+    overflow-wrap: break-word;
+}
+
+#blog-list ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#blog-list ul li {
+    padding-bottom: 20px;
+}
+
+#article-toggle {
+    position: relative;
+}
+
+#banner {
+    margin-top: 25%;
+}
+
+#banner a:hover {
+    color: rgb(0,212,255);
+    color: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(255,106,250,1) 100%);
+}
+
+#blog-list {
+    margin-top: 10%;
+}
+
+.blog-post {
+    margin-top: 10%
+}
+
+time {
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+body {
+    background-color: #fefefe;
+    color: #454545;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: auto;
+    max-width: 800px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    height: 60px;   /* Height of the footer */
+    font-size: 14px;
+}
+
+h1, h2, h3 {
+    font-family: 'Space Mono', monospace;
+    line-height:1.2
+}
+
+/*     Navigation     */
+#main-nav {
+    padding-left: 0px;
+}
+
+nav {
+    height: 40px;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#article-toggle {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#previous-article {
+    float: left;
+}
+
+#next-article {
+    float: right;
+}
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Data Vagabond</title>
+    <link>http://lauralai.me/post/</link>
+    <description>Recent content in Posts on Data Vagabond</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jan 2019 09:47:05 -0400</lastBuildDate>
+    
+	<atom:link href="http://lauralai.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about 👩🏻‍💻</title>
+      <link>http://lauralai.me/post/about/</link>
+      <pubDate>Tue, 29 Jan 2019 09:47:05 -0400</pubDate>
+      
+      <guid>http://lauralai.me/post/about/</guid>
+      <description>I&amp;rsquo;m currently an Analytics Engineer at Slate, where I maintain our data pipeline and analyze article content performance, audience segmentation, and revenue optimization.
+I studied Physics at George Washington University culminating in a nuclear physics thesis. I spent two summers exploring particle physics before becoming a Technology Consultant. At Deloitte, I specialized in data analytics services for national security and defense. At GXM Consulting, I developed data analysis frameworks to measure defense agency performance and managed a rapid prototyping sofware project.</description>
+    </item>
+    
+  </channel>
+</rss>
