@@ -15,6 +15,11 @@ a:hover {
     border-color: rgba(0,212,255,1);
 }
 
+#banner {
+    font-size: 1vw;
+    margin-top: 25%;
+}
+
 #banner a, nav a {
     border-bottom: none;
     color: rgb(0,212,255);
@@ -41,10 +46,6 @@ nav a:hover {
 
 #article-toggle {
     position: relative;
-}
-
-#banner {
-    margin-top: 25%;
 }
 
 #banner a:hover {
