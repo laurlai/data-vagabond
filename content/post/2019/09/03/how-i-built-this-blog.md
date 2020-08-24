@@ -17,4 +17,4 @@ This template is heavily influenced by the [Hugo Theme Basic](https://github.com
 ## what did i learn?
 
 ### CSS is *hard*!
-![css](/img/css-peter.gif)
+
